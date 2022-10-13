@@ -15,7 +15,7 @@ function ListNode(val, next) {
     this.next = (next === undefined ? null : next)
 }
 
-var reverseList = function (head) {
+const reverseList = function (head) {
     if (head === null || head.next === null) {
         return head;
     }
